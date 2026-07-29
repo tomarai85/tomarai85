@@ -1,6 +1,6 @@
 ### Tom
 
-First-year CS at the University of Nebraska Omaha.
+Incoming first-year at the University of Nebraska Omaha.
 macOS apps, AI agent infrastructure, and a PS5 controller mic driver.
 
 | | |

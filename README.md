@@ -36,7 +36,6 @@ commit messages. Generated daily.
 | `internship-2027` | Python | 2026-09-17 |
 | `Xcode-apps` | Swift | 2026-09-17 |
 | `bball-fit-ios` | Swift | 2026-09-16 |
-| `athenas-ai-agent` | JavaScript | 2026-09-14 |
 | `codexbar-fleet` | Swift | 2026-09-12 |
 | `codexbar-handoff` | - | 2026-09-12 |
 | `foot-cam` | JavaScript | 2026-09-12 |
@@ -60,6 +59,6 @@ commit messages. Generated daily.
 | `terminal-test-courser` | HTML | 2026-03-08 |
 | `project-cursor` | HTML | 2026-02-23 |
 
-_32 private projects · index regenerated 2026-09-18_
+_31 private projects · index regenerated 2026-09-19_
 
 <!-- PRIVATE-WORK-INDEX:END -->

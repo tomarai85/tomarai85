@@ -27,6 +27,7 @@ commit messages. Generated daily.
 
 | project | language | last touched |
 |---|---|---|
+| `codexbar-fleet` | Swift | 2026-09-19 |
 | `remotemini-private` | Shell | 2026-09-18 |
 | `x-auto-post` | HTML | 2026-09-18 |
 | `flote-app` | Swift | 2026-09-18 |
@@ -36,7 +37,6 @@ commit messages. Generated daily.
 | `internship-2027` | Python | 2026-09-17 |
 | `Xcode-apps` | Swift | 2026-09-17 |
 | `bball-fit-ios` | Swift | 2026-09-16 |
-| `codexbar-fleet` | Swift | 2026-09-12 |
 | `codexbar-handoff` | - | 2026-09-12 |
 | `foot-cam` | JavaScript | 2026-09-12 |
 | `claudebar` | Swift | 2026-09-09 |

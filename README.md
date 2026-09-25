@@ -42,7 +42,6 @@ commit messages. Generated daily.
 | `internship-2027` | Python | 2026-09-17 |
 | `Xcode-apps` | Swift | 2026-09-17 |
 | `bball-fit-ios` | Swift | 2026-09-16 |
-| `athenas-ai-agent` | JavaScript | 2026-09-14 |
 | `codexbar-handoff` | - | 2026-09-12 |
 | `foot-cam` | JavaScript | 2026-09-12 |
 | `claudebar` | Swift | 2026-09-09 |
@@ -60,7 +59,6 @@ commit messages. Generated daily.
 | `synayaka-ai-tasks-dashboard` | HTML | 2026-05-12 |
 | `synayaka-private-f5` | JavaScript | 2026-05-11 |
 | `synayaka-private-f1` | JavaScript | 2026-05-11 |
-| `athenas-outreach` | JavaScript | 2026-05-09 |
 | `yoda-copy-ai-delivery` | Python | 2026-04-15 |
 | `claude-code-harness-design` | Shell | 2026-04-05 |
 | `with-cursor-uni-t` | HTML | 2026-03-29 |
@@ -71,6 +69,6 @@ commit messages. Generated daily.
 | `terminal-test-courser` | HTML | 2026-03-08 |
 | `project-cursor` | HTML | 2026-02-23 |
 
-_43 private projects · index regenerated 2026-09-25_
+_41 private projects · index regenerated 2026-09-25_
 
 <!-- PRIVATE-WORK-INDEX:END -->

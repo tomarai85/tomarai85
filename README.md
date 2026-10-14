@@ -1,22 +1,25 @@
 ### Tom
 
-First-year at the University of Nebraska Omaha. I build infrastructure for running many AI coding
-agents at once, and native macOS tools.
+I build infrastructure for running many AI coding agents at once, and native macOS tools.
+First-year at the University of Nebraska Omaha.
 
-| | |
-|---|---|
-| [**overseer**](https://github.com/tomarai85/overseer) | A local cockpit for a fleet of AI coding agents. The hard part is not the dashboard — it is deciding, from a transcript and a pid, whether a session is *working*, *blocked*, *waiting on you*, or *safe to restart*. Get that wrong and you either restart an agent mid-edit or leave it hung for an hour. 3.6k lines of Python, 17 test files, and a written market read that names its own weakest moat. |
-| [**RemoteMini**](https://github.com/tomarai85/remotemini) | Driving those sessions from an iPhone, over a Tailscale tailnet and never the public internet. The part meant to be reusable is the harness: every commit gate ships with a *control* that mutates the code so the gate has to catch it, and fails the build if the gate stays green. The question asked of a gate is not "does it pass" but "can it still fail". The public repository is a derived copy — the raw history is rewritten through a redaction pipeline before it is published. |
-| [**Helix**](https://github.com/tomarai85/helix-releases) | Native macOS terminal for the same workflow: four panes and a live browser preview in one window, so Claude Code, an SSH session to a Mac mini, build output and the page under test stop being four ⌘-tabs. Free beta, notarization pending; every DMG ships with a published SHA-256. |
-| [**dualsense-bridge**](https://github.com/tomarai85/dualsense-bridge) | The PS5 DualSense's built-in mic, as a real macOS microphone, over Bluetooth, with no extra hardware. Sony's docs, macOS, and the standard libraries all treat that mic as USB-only; the projects that do capture it wirelessly need a Raspberry Pi Pico dongle. The audio turns out to be Opus-encoded inside the controller's HID input reports — decode it on the host, hand it to a virtual CoreAudio device, and "DualSense Mic" shows up in System Settings like any other input. |
-| [**court-recover**](https://github.com/tomarai85/court-recover) | 95 lines of bash that catch one specific way an AI agent fails — it *writes* a tool call as prose instead of *making* it, then waits forever — and force a clean retry. Fail-open: if the hook itself breaks, the session continues. CI on every push. |
-| [**Flote**](https://github.com/tomarai85/flote) | Shipped macOS app with a [site](https://flote-app.vercel.app) and install steps. Option+Space floats a sticky note; write the thought as it comes out, press Organize once, and it becomes a title, key points and a checklist. |
+**Merged upstream**
 
-Work in other people's repositories: an account-switch credential fix **merged into**
-[stablyai/orca](https://github.com/stablyai/orca/pull/21931), a status-page error fix **merged into**
-[steipete/CodexBar](https://github.com/steipete/CodexBar/pull/2925), and a keep-awake mode plus a
-battery-floor safety **sent to** [fuji-mak/Capsomnia](https://github.com/fuji-mak/Capsomnia/pull/49) (open).
-**claudebar** is my build of CodexBar — the app is his, the multi-account switching is mine.
+- [stablyai/orca #21931](https://github.com/stablyai/orca/pull/21931) ![stars](https://img.shields.io/github/stars/stablyai/orca?style=flat-square&label=%E2%98%85) — an account switch no longer drops the shared MCP OAuth credentials
+- [steipete/CodexBar #2925](https://github.com/steipete/CodexBar/pull/2925) ![stars](https://img.shields.io/github/stars/steipete/CodexBar?style=flat-square&label=%E2%98%85) — a status-page transport error is no longer pinned to the menu as the provider's status
+
+In review: two terminal settings for orca ([#26012](https://github.com/stablyai/orca/pull/26012), [#26026](https://github.com/stablyai/orca/pull/26026)) and a keep-awake mode with a battery floor for [Capsomnia](https://github.com/fuji-mak/Capsomnia/pull/49).
+
+**Selected work**
+
+- [**overseer**](https://github.com/tomarai85/overseer) — decides, from a transcript and a pid, whether an AI agent is working, blocked, waiting on you, or safe to restart. Python, 17 test files.
+- [**RemoteMini**](https://github.com/tomarai85/remotemini) — drives those sessions from an iPhone over a Tailscale tailnet. Every commit gate ships with a control that mutates the code, and the build fails if the gate stays green.
+- [**dualsense-bridge**](https://github.com/tomarai85/dualsense-bridge) — the PS5 DualSense mic as a real macOS input over Bluetooth, no dongle: the audio is Opus inside the controller's HID reports, decoded on the host.
+- [**Flote**](https://github.com/tomarai85/flote) — shipped macOS app ([site](https://flote-app.vercel.app)). Option+Space floats a note; Organize turns it into a title, key points and a checklist.
+- [**court-recover**](https://github.com/tomarai85/court-recover) — 95 lines of bash that catch an agent writing a tool call as prose instead of making it, and force a clean retry.
+
+<details>
+<summary><b>Private projects</b> (names only, updated daily)</summary>
 
 <!-- PRIVATE-WORK-INDEX:BEGIN (generated by gh-portfolio-index — do not hand-edit inside) -->
 
@@ -77,3 +80,5 @@ commit messages. Generated daily.
 _45 private projects · index regenerated 2026-10-14_
 
 <!-- PRIVATE-WORK-INDEX:END -->
+
+</details>

@@ -14,7 +14,6 @@ In review: two terminal settings for orca ([#26012](https://github.com/stablyai/
 
 - [**overseer**](https://github.com/tomarai85/overseer) — decides, from a transcript and a pid, whether an AI agent is working, blocked, waiting on you, or safe to restart. Python, 17 test files.
 - [**RemoteMini**](https://github.com/tomarai85/remotemini) — drives those sessions from an iPhone over a Tailscale tailnet. Every commit gate ships with a control that mutates the code, and the build fails if the gate stays green.
-- [**dualsense-bridge**](https://github.com/tomarai85/dualsense-bridge) — the PS5 DualSense mic as a real macOS input over Bluetooth, no dongle: the audio is Opus inside the controller's HID reports, decoded on the host.
 - [**Flote**](https://github.com/tomarai85/flote) — shipped macOS app ([site](https://flote-app.vercel.app)). Option+Space floats a note; Organize turns it into a title, key points and a checklist.
 - [**court-recover**](https://github.com/tomarai85/court-recover) — 95 lines of bash that catch an agent writing a tool call as prose instead of making it, and force a clean retry.
 

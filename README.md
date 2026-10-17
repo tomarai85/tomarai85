@@ -1,21 +1,14 @@
-### Tom
+<p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/terminal-light.svg">
+  <img src="assets/terminal-light.svg" width="100%" alt="Terminal screen. Tomonori Arai. Builds infra for running many AI coding agents at once, and native macOS tools. School: University of Nebraska Omaha. Uptime: first year. Merged: orca, CodexBar.">
+</picture>
+</p>
 
-I build infrastructure for running many AI coding agents at once, and native macOS tools.
-First-year at the University of Nebraska Omaha.
+Merged upstream: [orca&nbsp;#21931](https://github.com/stablyai/orca/pull/21931) · [CodexBar&nbsp;#2925](https://github.com/steipete/CodexBar/pull/2925)
 
-**Merged upstream**
-
-- [stablyai/orca #21931](https://github.com/stablyai/orca/pull/21931) ![stars](https://img.shields.io/github/stars/stablyai/orca?style=flat-square&label=%E2%98%85) — an account switch no longer drops the shared MCP OAuth credentials
-- [steipete/CodexBar #2925](https://github.com/steipete/CodexBar/pull/2925) ![stars](https://img.shields.io/github/stars/steipete/CodexBar?style=flat-square&label=%E2%98%85) — a status-page transport error is no longer pinned to the menu as the provider's status
-
-In review: two terminal settings for orca ([#26012](https://github.com/stablyai/orca/pull/26012), [#26026](https://github.com/stablyai/orca/pull/26026)) and a keep-awake mode with a battery floor for [Capsomnia](https://github.com/fuji-mak/Capsomnia/pull/49).
-
-**Selected work**
-
-- [**overseer**](https://github.com/tomarai85/overseer) — decides, from a transcript and a pid, whether an AI agent is working, blocked, waiting on you, or safe to restart. Python, 17 test files.
-- [**RemoteMini**](https://github.com/tomarai85/remotemini) — drives those sessions from an iPhone over a Tailscale tailnet. Every commit gate ships with a control that mutates the code, and the build fails if the gate stays green.
-- [**Flote**](https://github.com/tomarai85/flote) — shipped macOS app ([site](https://flote-app.vercel.app)). Option+Space floats a note; Organize turns it into a title, key points and a checklist.
-- [**court-recover**](https://github.com/tomarai85/court-recover) — 95 lines of bash that catch an agent writing a tool call as prose instead of making it, and force a clean retry.
+Work: [overseer](https://github.com/tomarai85/overseer) · [court-recover](https://github.com/tomarai85/court-recover) · [RemoteMini](https://github.com/tomarai85/remotemini) · [Flote](https://github.com/tomarai85/flote)
 
 <details>
 <summary><b>Private projects</b> (names only, updated daily)</summary>
